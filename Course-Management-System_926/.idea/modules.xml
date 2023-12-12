@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Course-Management-System_926.iml" filepath="$PROJECT_DIR$/.idea/Course-Management-System_926.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Gateway/Gateway.iml" filepath="$PROJECT_DIR$/Gateway/Gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cms-registry-server/cms-registry-server.iml" filepath="$PROJECT_DIR$/cms-registry-server/cms-registry-server.iml" />
+    </modules>
+  </component>
+</project>

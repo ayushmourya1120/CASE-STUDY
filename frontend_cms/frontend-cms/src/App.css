@@ -1,0 +1,126 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  text-decoration: none;
+}
+
+.course-container {
+  padding: 10px;
+}
+
+.course-title {
+  color: darkblue;
+  text-align: center;
+}
+
+.course-menus {
+  padding: 10px;
+  text-align: center;
+}
+
+.menu-heading {
+  color: lightgrey;
+}
+
+.menu-button {
+  background-color: lightgreen;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.menu-button a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu-button:hover {
+  background-color :aqua;
+  
+}
+
+.message {
+  position: relative;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.message.success {
+  background-color: #4caf50;
+}
+
+.message.error {
+  background-color: #f44336;
+}
+
+.message::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+  z-index: -1;
+}
+
+
+
+
+
